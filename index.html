@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Monster Legacy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HUD -->
+  <div id="hud">
+    <img src="assets/ui/heart.png" class="icon">
+    <span id="hp">100</span>
+
+    <img src="assets/ui/bag.png" class="icon" id="openBag">
+  </div>
+
+  <!-- JOGO -->
+  <canvas id="game" width="320" height="240"></canvas>
+
+  <!-- MENU DE BATALHA -->
+  <div id="battleMenu" class="hidden">
+    <button>Ataque</button>
+    <button>Bolsa</button>
+    <button>Fugir</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
